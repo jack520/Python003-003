@@ -38,3 +38,10 @@ xpath = r'//*[@id="root"]/div/div[2]/div/div/div/div[2]/div/div/div[1]/button'
 driver.find_element_by_xpath(xpath).click()
 print('clicked')
 
+# sent phone number
+# sent password
+# clicked
+
+# 关闭浏览器
+time.sleep(5)
+driver.quit()
